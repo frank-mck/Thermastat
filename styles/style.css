@@ -64,16 +64,20 @@ body {
  }
 
  .degrees {
-   display: flex;
    transform:rotate(90deg);
-   position: absolute;
-   left:0;
-   float: left;
    color: white;
-   align-items: left;
-   font-size: 6.8rem;
+   display: flex;
+   justify-content: center;
+   font-size: 10.8rem;
    font-weight: 600;
-   letter-spacing: 1mm;
+   letter-spacing: 2mm;
+ 
+ }
+
+ .degrees span {
+  display:inline-block;
+  position:absolute;
+  top: -205px;
  }
 
  #temperature {
