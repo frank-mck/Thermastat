@@ -10,42 +10,44 @@
   color: red;
 }
 
-#temperature {
-
+body {
+  padding: 0;
+  margin: 0;
 }
  .main {
    display: flex;
    height: 100vh;
    padding: 0;
    margin: 0;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
  }
 
  .left {
-  
-   width: 40%;
+   width: 57%;
    display: flex;
    align-items: center;
  }
 
- form input h1 {
-   font-size: 2rem;
-   padding: 1rem;
+ form input {
+   border: none;
+   border-radius: 5px;
+   padding: .4rem;
  }
  .right {
-   width: 20%;
+   width: 30%;
    background-color: black;
    display: flex;
    align-items: center;
    position: relative;
  }
  .middle {
-   width: 40%;
+   width: 13%;
    display: flex;
    justify-content: center;
    align-items: flex-end;
    flex-direction: column;
    font-size: 2rem;
+   margin: 1rem;
  }
 
  .btns {
@@ -69,16 +71,27 @@
    float: left;
    color: white;
    align-items: left;
-   font-size: 5rem;
+   font-size: 6.8rem;
    font-weight: 600;
-
-  
+   letter-spacing: 1mm;
  }
 
  #temperature {
    font-size: 8rem;
    padding: 0;
    margin: 0;
+ }
+
+ .current_temperature {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 8.5rem;
+  height: 2.5rem;
+  padding: .2rem;
+  border-radius: 5px;
+  justify-content: space-around;
  }
 
  .temperature-button {
