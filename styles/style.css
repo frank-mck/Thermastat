@@ -18,7 +18,7 @@
    height: 100vh;
    padding: 0;
    margin: 0;
-
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
  }
 
  .left {
@@ -33,14 +33,14 @@
    padding: 1rem;
  }
  .right {
-   width: 40%;
+   width: 20%;
    background-color: black;
    display: flex;
    align-items: center;
    position: relative;
  }
  .middle {
-   width: 20%;
+   width: 40%;
    display: flex;
    justify-content: center;
    align-items: flex-end;
@@ -69,8 +69,40 @@
    float: left;
    color: white;
    align-items: left;
-   font-size: 2rem;
+   font-size: 5rem;
    font-weight: 600;
 
   
+ }
+
+ #temperature {
+   font-size: 8rem;
+   padding: 0;
+   margin: 0;
+ }
+
+ .temperature-button {
+   border: none;
+   background-color: white;
+   font-size: 2rem;
+ }
+
+ .PSM-text {
+   font-size: 1.25rem;
+ }
+
+ #powersaving-on {
+  border: none;
+  background-color: white;
+  font-size: 1.25rem;
+  border: 2px solid black;
+  border-radius: 10px;
+ }
+
+ #powersaving-off {
+  border: none;
+  background-color: white;
+  font-size: 1.25rem;
+  border: 2px solid white;
+  border-radius: 10px;
  }

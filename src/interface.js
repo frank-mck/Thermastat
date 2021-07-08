@@ -26,13 +26,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelector('#powersaving-on').addEventListener('click', () => {
     thermostat.switchPowerSavingModeOn();
-    document.querySelector('#power-saving-status').innerText = 'on';
+    // document.querySelector('#power-saving-status').innerText = 'on';
+    document.querySelector('#powersaving-on').style.borderColor='black';
+    document.querySelector('#powersaving-off').style.borderColor='white';
     updateTemperature();
   });
 
   document.querySelector('#powersaving-off').addEventListener('click', () => {
     thermostat.switchPowerSavingModeOff();
-    document.querySelector('#power-saving-status').innerText = 'off';
+    // document.querySelector('#power-saving-status').innerText = 'off';
+    document.querySelector('#powersaving-on').style.borderColor='white';
+    document.querySelector('#powersaving-off').style.borderColor='black';
     updateTemperature();
   });
 
