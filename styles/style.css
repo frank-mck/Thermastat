@@ -9,3 +9,68 @@
 .high-usage {
   color: red;
 }
+
+#temperature {
+
+}
+ .main {
+   display: flex;
+   height: 100vh;
+   padding: 0;
+   margin: 0;
+
+ }
+
+ .left {
+  
+   width: 40%;
+   display: flex;
+   align-items: center;
+ }
+
+ form input h1 {
+   font-size: 2rem;
+   padding: 1rem;
+ }
+ .right {
+   width: 40%;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   position: relative;
+ }
+ .middle {
+   width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   flex-direction: column;
+   font-size: 2rem;
+ }
+
+ .btns {
+  display: flex;
+  align-items:flex-end;
+  flex-direction: column;
+ 
+ }
+
+ .btns button {
+  margin: 5px;
+  padding: 10px;
+
+ }
+
+ .degrees {
+   display: flex;
+   transform:rotate(90deg);
+   position: absolute;
+   left:0;
+   float: left;
+   color: white;
+   align-items: left;
+   font-size: 2rem;
+   font-weight: 600;
+
+  
+ }
