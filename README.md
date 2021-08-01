@@ -8,4 +8,24 @@ This is a simple thermostat app built in Javaascript. The purpose of the project
 
 ## Screens
 
-<img alt = 'thermostat image of temperature of london' src ='https://raw.githubusercontent.com/frank-mck/Thermostat/master/img/Screenshot%202021-08-01%20at%2018.42.58.png'>
+<img alt = 'thermostat image of temperature of london' src ='https://raw.githubusercontent.com/frank-mck/Thermostat/master/img/Screenshot%202021-08-01%20at%2018.42.58.png' >
+
+
+## Technical Skills
+
+- JavaScript
+- CSS, HTML
+- TDD with Jasmine
+- Ajax
+
+## How to use
+
+To set up the project
+Clone this repo to your computer and then open "index.html" in your web browser.
+
+## To test
+`open SpecRunner.html` to view Jasmine in the browser.
+
+
+## Credits
+CSS developed with Arif Ebrahim
