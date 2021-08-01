@@ -24,7 +24,7 @@ To set up the project
 Clone this repo to your computer and then open "index.html" in your web browser.
 
 ## To test
-`open SpecRunner.html` to view Jasmine in the browser.
+To view Jasmine in the browser type `open SpecRunner.html` in the terminal.
 
 
 ## Credits
