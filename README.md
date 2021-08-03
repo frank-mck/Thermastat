@@ -28,4 +28,4 @@ To view Jasmine in the browser type `open SpecRunner.html` in the terminal.
 
 
 ## Credits
-CSS developed with Arif Ebrahim
+Developed with Arif Ebrahim
